@@ -1,0 +1,5 @@
+version: '3.8'
+services:
+  lighthouse:
+    # 이미지 정보가 있는 Dockerfile의 위치를 알려준다.
+    build: .
