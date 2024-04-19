@@ -19,6 +19,7 @@ COPY tsconfig.json /app
 
 RUN yarn build
 RUN yarn global add lighthouse
+RUN yarn global add next@14.2.2
 
 COPY command.sh /app
 COPY lighthouserc.js /app
